@@ -37,7 +37,7 @@ var job = new CronJob('15 6 * * *', function() {
     
     client.channels.fetch(process.env.CHANNEL_ID).then((channel) => {
         if (channel)
-            channel.send(`Hyvää huomenta ${name}\ntj ${untilEnd}`);
+            channel.send(`Hyvää huomenta ${name}\nTJ ${untilEnd}`);
     });
 }, null, true, 'Europe/Helsinki');
 job.start();
