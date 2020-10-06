@@ -7,7 +7,9 @@ const CronJob = require('cron').CronJob;
 
 const names = [
     'viesti',
-    'kyösti'
+    'viästi',
+    'kyösti',
+    'muumit'
 ]
 
 client.on('ready', () => {
