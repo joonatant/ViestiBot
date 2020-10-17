@@ -17,7 +17,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if (msg.content === 'yk') {
+    if (msg.content.toLowerCase === 'yk') {
         msg.reply('yk ok');
     }
 });
